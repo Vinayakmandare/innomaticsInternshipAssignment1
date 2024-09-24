@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+table{
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;
+}
+.header{
+    height: 5vh;
+}
+th{
+    background-color: yellow;
+}
+td{
+    height: 10vh;
+}
+.home{
+    background-color: pink;
+}
+.time-column{
+    background-color: lightgray;
+}
